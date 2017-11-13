@@ -1,10 +1,12 @@
 package com.example.dm2.aplicacionconfragmentos;
 
+import java.io.Serializable;
+
 /**
  * Created by dm2 on 08/11/2017.
  */
 
-public class SubHeroe {
+public class SubHeroe implements Serializable {
     private String nombre, nombreReal, subpoder, motivacion, archienemigo;
 
     public SubHeroe(String nombre, String nombreReal, String subpoder, String motivacion, String archienemigo) {
