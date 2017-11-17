@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements SubHeroesListener
         boolean haydetalle = (getSupportFragmentManager().findFragmentById(R.id.FrgDetalle)!=null);
         if(haydetalle){
             ((FragmentDetalle) getSupportFragmentManager().findFragmentById(R.id.FrgDetalle)).mostrarDetalle(sh.getSubpoder());
+
         }
         else{
             Intent i = new Intent(this, Detalle_Activity.class);

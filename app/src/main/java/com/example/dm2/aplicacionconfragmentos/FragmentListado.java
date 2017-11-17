@@ -62,7 +62,7 @@ public class FragmentListado extends Fragment {
             lblNombre.setText(subHeroes[pos].getNombre());
 
             TextView lblNombreReal = (TextView) item.findViewById(R.id.lblNombreReal);
-            lblNombreReal.setText(subHeroes[pos].getNombre());
+            lblNombreReal.setText(subHeroes[pos].getNombreReal());
 
             return (item);
         }
